@@ -23,6 +23,12 @@ h1{
     padding-bottom: 20px;
 }
 
+a{
+    text-decoration: none;
+    color: #000;
+
+}
+
 /* Utils */
 
 .container{
@@ -65,8 +71,22 @@ h1{
     text-align: center;
 }
 
+/* menu bar */
 .menu{
     position: fixed;
     top: 0;
     right: 10px;
+    
+}
+
+.menu a{
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px; 
+    margin: 0 15px;
 }
