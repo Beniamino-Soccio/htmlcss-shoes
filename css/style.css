@@ -9,12 +9,18 @@
 
 /* Generics */
 
+html{
+    overflow-y: hidden;
+}
+
 body{
     font-family: 'Rubik Mono One', sans-serif;
 }
 
 h1{
-    font-size: 56px;
+    font-size: 48px;
+    padding: 0px 100px;
+    padding-bottom: 20px;
 }
 
 /* Utils */
@@ -26,9 +32,7 @@ h1{
 
 .page{
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
 }
 
 .bgc-red{
@@ -53,6 +57,16 @@ h1{
 }
 
 .content{
-    max-width: 50%;
+    max-width: 50%; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
     text-align: center;
+}
+
+.menu{
+    position: fixed;
+    top: 0;
+    right: 10px;
 }
