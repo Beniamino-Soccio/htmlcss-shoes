@@ -1,0 +1,21 @@
+/* CSS reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+/* Generics */
+
+body{
+    font-family: sans-serif;
+}
+
+/* Utils */
+
+.container{
+    max-width: 1200;
+    margin: 0 auto;
+}
