@@ -19,3 +19,20 @@ body{
     max-width: 1200;
     margin: 0 auto;
 }
+
+.page{
+    height: 100vh;
+}
+
+.first-page{
+    background-color: #FF0000;
+
+}
+
+.second-page{
+    background-color: #008000;
+}
+
+.third-page{
+    background-color: #FFFF00;
+}
